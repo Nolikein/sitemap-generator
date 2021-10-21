@@ -11,7 +11,7 @@ use DateTimeInterface;
  * @method addRoute Add a route to the collection
  * @method getRoutes Gets the route collection
  */
-class sitemapFactory
+class SitemapFactory
 {
     /** @var array|SitemapRoute[] $collection The route "collection" */
     protected $routeCollection = [];
