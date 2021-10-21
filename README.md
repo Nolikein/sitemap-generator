@@ -25,7 +25,7 @@ use Nolikein\SitemapGenerator\SitemapFactory;
 
     $generator = new SitemapFactory();
     $generator
-        ->addRoute('/', new Datetime('now'), 'always', 1)
+        ->addRoute('http://domain.org/', new Datetime('now'), 'always', 1)
         ...
         ;
     $routes = $generator->getRoutes();

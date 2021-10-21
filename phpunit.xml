@@ -1,0 +1,17 @@
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/6.3/phpunit.xsd"
+    cacheResult="false"
+    colors="true">
+
+    <php>
+        <ini name="error_reporting" value="-1" />
+        <server name="ENV" value="test" force="true" />
+    </php>
+
+    <testsuites>
+        <testsuite name="array-mapping">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
