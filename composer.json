@@ -1,0 +1,22 @@
+{
+    "name": "nolikein/sitemap-generator",
+    "description": "Generator to easiely making sitemap data",
+    "type": "librairy",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nolikein\\SitemapGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Come Wasik",
+            "email": "wasik.come@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4"
+    }
+}
