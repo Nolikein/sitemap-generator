@@ -1,6 +1,6 @@
 # Sitemap Generator
 
-![PHP](https://img.shields.io/packagist/v/nolikein/sitemap-generator) ![Packagist version](https://img.shields.io/packagist/v/nolikein/sitemap-generator) ![Packagist License](https://img.shields.io/packagist/l/nolikein/sitemap-generator) ![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/Come-Wasik/sitemap-generator/master)
+![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/Come-Wasik/sitemap-generator/master)
 
 ## Overview
 
