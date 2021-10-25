@@ -50,6 +50,22 @@ use Nolikein\SitemapGenerator\SitemapFactory;
 
 ```
 
+## Showing the result into a sitemap file (blade example)
+```php
+{{-- @php echo '<?xml version="1.0" encoding="UTF-8"?>' @endphp --}}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    @foreach ($routes as $route)
+        <url>
+            <loc>{{ $route->getUrl() }}</loc>
+            <lastmod>{{ $route->getLastmodification()->format('Y-m-d') }}</lastmod>
+            <changefreq>{{ $route->getFrequency() }}</changefreq>
+            <priority>{{ $route->getPriority() }}</priority>
+        </url>
+    @endforeach
+</urlset>
+
+```
+
 ## Links
 
 + [Link to packagist](https://packagist.org/packages/nolikein/sitemap-generator)
